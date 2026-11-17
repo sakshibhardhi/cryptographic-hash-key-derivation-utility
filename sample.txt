@@ -1,0 +1,14 @@
+Hello from cryptoutil!
+This is a sample file used in README examples and tests.
+
+cryptoutil is a command-line cryptographic utility built with the Python
+standard library only (hashlib, hmac, secrets, argparse).
+
+Features:
+  - SHA-256 / SHA-512 hashing of text and files
+  - PBKDF2-HMAC key derivation
+  - Cryptographically secure salt generation
+  - HMAC computation and constant-time verification
+  - File checksum verification
+
+Security note: for production password storage prefer Argon2, bcrypt, or scrypt.
